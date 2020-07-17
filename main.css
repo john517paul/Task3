@@ -1,0 +1,80 @@
+body{
+    color: white;
+    font-family:sans-serif ;
+    background-color: black;
+
+}
+.container-fluid{
+    background-color: rgb(10, 10, 10);
+    width: 70%;
+    height: 30em;
+}
+.row{
+    background-color: blanchedalmond;
+    width: 85%;
+    height: 23em;
+}
+.col-4{
+    background-color: rgb(12, 20, 20);
+}
+.col-8{
+    background-color: rgb(3, 43, 43);
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.form-control{
+    width: 60%;
+    background-color: rgb(7, 36, 36);
+    border: none;
+    border-bottom: 1.5px solid teal;
+    border-radius: 0%;
+    
+}
+.btn-primary{
+    background-color: rgb(7, 36, 36);
+    border: 1.5px solid teal;
+    width: 20%;
+    border-radius: 0%;
+}
+.btn-primary:hover{
+    background-color: rgb(7, 36, 36);
+    border: 1.5px solid teal;
+    width: 20%;
+
+} 
+.outer{
+    position: relative;
+    width: 50%;
+    height: 30%;
+    border: 3px solid teal;
+    border-radius: 50%;
+    background: transparent;
+}
+.inner{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+     top: 15%;
+    bottom: 2;
+    left: 15%;
+    right: 2; 
+    border: 3px solid teal;
+    border-radius: 50%;
+    background: transparent;
+}
+.dot{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+     top: 15%;
+    bottom: 2;
+    left: 86%;
+    right: 2; 
+    border: 3px solid teal;
+    border-radius: 50%;
+    background: transparent;
+}
